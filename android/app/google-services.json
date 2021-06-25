@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "827755987143",
+    "project_id": "holdmyplan",
+    "storage_bucket": "holdmyplan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827755987143:android:590370d68e30f2cb673ee2",
+        "android_client_info": {
+          "package_name": "furkanstodoapp.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827755987143-15nuf80pg83ju5e3qp679reapv51dc0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB0RddPKk0r1ZhtJ15pAgdkkbt50iCUVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827755987143-15nuf80pg83ju5e3qp679reapv51dc0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

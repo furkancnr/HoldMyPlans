@@ -5,16 +5,29 @@ import 'package:flutter_app/screens/Todo_add.dart';
 import 'package:flutter_app/screens/home.dart';
 import 'package:flutter_app/screens/list.dart';
 import 'package:flutter_app/screens/settings.dart';
-void main() => runApp(MyApp());
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_app/provider/google_giriş.dart';
+import 'package:provider/provider.dart';
+Future main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
+  runApp(MyApp());
+
+}
 
 class MyApp extends StatelessWidget {
+  static final String title = 'MainPage';
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
-    );
-  }
+  Widget build(BuildContext context) => ChangeNotifierProvider(
+      create: (context) => GoogleGirisProvider(),
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: HomeScreen(),
+      )
+  );
+
+
 }
 
 class HomeScreen extends StatefulWidget {

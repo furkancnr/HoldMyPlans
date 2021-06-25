@@ -47,7 +47,7 @@ List<Setting> setting = [
   Setting.withID(2, "Bug report", 0,Icon(Icons.bug_report)),
   Setting.withID(3, "Privacy", 0,Icon(Icons.privacy_tip_outlined)),
   Setting.withID(4, "Version", 0,Icon(Icons.update)),
-  Setting.withID(5, "About", 0,Icon(Icons.info_outline))
+  Setting.withID(5, "About", 0,Icon(Icons.info_outline)),
+  Setting.withID(6, "Login", 0,Icon(Icons.person)),
+  Setting.withID(7, "Graphic", 0,Icon(Icons.insert_drive_file_outlined))
 ];
-
-
