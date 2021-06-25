@@ -20,7 +20,7 @@ class aboutPageState extends State<aboutPage> {
           child: Container(
               margin: EdgeInsets.all(50.0),
               child:
-              Text("Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3311456 kodlu dersi kapsamında 193311053 numaralı Furkan ÇINAR tarafından 30 Nisan 2021 günü yapılmıştır.",
+              Text("Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3311456 kodlu dersi kapsamında 193311053 numaralı Furkan ÇINAR tarafından 25 Haziran 2021 günü yapılmıştır.",
                 style: TextStyle(color: Colors.black,fontSize: 20.0,fontStyle: FontStyle.italic) ,))
 
       ),
